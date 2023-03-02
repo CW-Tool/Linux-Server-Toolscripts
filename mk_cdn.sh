@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p html/{retail,classic,classic_era}
+mkdir -p html/{retail,classic,classic_era}/
 curl http://us.patch.battle.net:1119/wow/versions -o html/retail/versions
 curl http://us.patch.battle.net:1119/wow/cdns -o html/retail/cdns
 curl http://eu.patch.battle.net:1119/wow_classic/versions -o html/classic/versions
